@@ -1,0 +1,8 @@
+.diContent ul {
+    list-style-type:none;
+}
+
+.divContent ul li h2 {
+    display:block;
+    color:#ffffff;
+}

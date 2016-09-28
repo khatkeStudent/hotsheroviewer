@@ -1,0 +1,22 @@
+.divContent ul {
+}
+
+.divContent li {
+	display:inline-block;
+}
+
+.divBuilds {
+	display:inline-block;	
+	width:80%;
+	float:center;
+	margin:2em 10% 0em 10%;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1px;
+	background-color:#000000;
+}
+
+.divBuilds image {
+	height:3em;
+	width:3em;
+}
