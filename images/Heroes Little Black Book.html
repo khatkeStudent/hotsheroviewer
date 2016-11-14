@@ -1,0 +1,52 @@
+
+<!-- saved from url=(0039)http://localhost:8080/createaccount.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Heroes Little Black Book</title>
+	<link rel="stylesheet" type="text/css" href="./Heroes Little Black Book_files/style.css">
+	<link rel="stylesheet" type="text/css" href="./Heroes Little Black Book_files/createaccount.css">
+    
+        </head>
+
+<body>
+    <div class="divToolBar">
+	<ul>
+		<li id="liHeroes" class="navoption"><a href="http://localhost:8080/index.php">Heroes</a></li>
+		<li id="liNews" class="navoption"><a href="http://localhost:8080/news.php">News</a></li>
+        <li>
+		<img class="logo" src="./Heroes Little Black Book_files/nexus.jpg">
+        </li>
+		<li id="liBuilds" class="navoption"><a href="http://localhost:8080/builds.php">Builds</a></li>
+		<li id="liLogin" class="navoption"><a href="http://localhost:8080/login.php">Login</a></li>
+	</ul>
+	</div>	<div class="divContent">
+        <form action="http://localhost:8080/scripts/createaccount_handler.php" method="post">
+        <div id="divErrors"><ul id="ulErrors" style="
+    list-style-type: circle;
+">Choose a username.<br>Enter and confirm a password.<br></ul></div>
+        <fieldset>
+            <legend>New User</legend>
+            <div>
+                <h3>Name</h3>
+                <input name="txtName" type="text" value="Kenneth">
+            </div>
+            <div>
+                <h3>E-mail Address</h3>
+                <input name="txtEmailAddress" type="text" value="s04biteme@hotmail.com">
+            </div>
+            <div>
+                <h3>Username</h3>
+                <input name="txtUsername" type="text" value="" autocomplete="off">
+            </div>
+            <div>
+                <h3>Password</h3>
+                <input name="txtPassword" type="password">
+            </div>
+            <div>
+                <h3>Confirm Password</h3>
+                <input name="txtConfirmPassword" type="password">
+            </div>
+            <input name="btnSubmit" class="btnsubmit" type="submit" value="Submit">
+        </fieldset>
+        </form>
+	</div>
+</body></html>

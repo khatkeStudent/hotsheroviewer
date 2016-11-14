@@ -1,0 +1,38 @@
+
+fieldset {
+    position:relative;
+    color:white;
+    margin:0px 20px;
+}
+
+fieldset legend {
+    font-size:2em;
+}
+
+fieldset h3 {
+    display:inline-block;
+    width:8em;
+}
+
+fieldset input {
+    display:inline-block;
+    width:20em;
+}
+
+.btnsubmit {
+    width:120px;
+}
+
+#divErrors {
+    display:inline-block;
+    color:white;
+    background-color:red;
+    border-style:solid;
+    border-color:darkred;
+    margin-left:1.2em;
+    padding:.5em 2em;
+}
+
+#divErrors:empty {
+    display:none;
+}
