@@ -30,6 +30,7 @@
             <div>
                 <h3>Password</h3>
                 <input name="txtPassword" type="password" />
+                <label>*Password must be 8 to 20 characters in length.</label>
             </div>
             <div>
                 <h3>Confirm Password</h3>

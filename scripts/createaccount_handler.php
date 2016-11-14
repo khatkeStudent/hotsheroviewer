@@ -54,7 +54,9 @@ function validateForm() {
     if ($_POST["txtPassword"] == "" || $_POST["txtConfirmPassword"] == ""){
         $_SESSION["error"] = $_SESSION["error"] . "<li>Enter and confirm a password.";
     } else if ($_POST["txtPassword"] === $_POST["txtConfirmPassword"]) {
-        
+        if (!preg_match("=^([a-zA-Z][0-9]){8,20}$", $_POST["txtPassword"])) { // Must be at least 8 to 20 characters
+            $_SESSION["error"] = $_SESSION["error"] . "<li>Password does not meet the minimum requirements.";
+        }
     } else {
         $_SESSION["error"] = $_SESSION["error"] . "<li>Passwords do not match.";
     }
