@@ -1,14 +1,35 @@
-img.portrait {
-    width:75px;
-    height:75px;
+#divBuildSubmit {
+    width:auto;
+    text-align:center;
+    font-size:2em;
+    margin-top:10px;
 }
 
 .divContent ul {
+    list-style-type:none;
 }
 
-.divContent li {
-	display:inline-block;
+.divContent ul li h2 {
+    display:block;
+    color:#ffffff;
 }
+
+.divContent {
+    color: white;
+}
+
+#liHome {
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+}
+
+#liHome a {
+    color:black;
+}
+
 
 .divBuilds {
 	display:inline-block;	
@@ -53,20 +74,6 @@ img.portrait {
     display:inline-block;
     width:100px;
 }
-
-#liBuilds {
-    background-color:white;
-    color:black;
-    border-color:black;
-    border-width:1px;
-    border-style:solid;
-}
-
-#liBuilds a {
-    color:black;
-}
-
-
 
 .divTable{
 	display: table;
@@ -126,16 +133,6 @@ input[type=radio] + label {
     margin-right:10px;
 } 
 
-#divBuildSubmit {
-    display:inline-block;   
-    width:auto;
-    float:right;
-}
-
-#txtBuildName {
-    margin:5px;
-}
-
-#btnSubmit {
-    margin:5px;
+#btnDelete {
+    margin:10px;
 }

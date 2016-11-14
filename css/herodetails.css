@@ -1,0 +1,23 @@
+
+#divHeroDetails {
+    color:white;
+    margin:0px 20px 20px 20px;
+    border-style:solid;
+    border-color:white;
+    border-width:2px;
+    border-radius:5px;
+    padding:5px;
+    overflow:hidden;
+}
+
+#herodetailsportrait {
+    display:inline-block;
+    width:100px;
+}
+
+#divHeroInfo {
+    display:inline-block;
+    width:75%;
+    vertical-align:top;
+    margin-left:10px;
+}

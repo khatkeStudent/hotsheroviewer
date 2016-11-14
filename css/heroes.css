@@ -4,3 +4,72 @@
 .divContent li {
     display:inline-block;
 }
+
+img.portrait {
+    width:75px;
+    height:75px;
+}
+
+#liHeroes {
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+}
+
+#liHeroes a {
+    color:black;
+}
+
+#divHeroAbilities {
+        margin-top:10px;
+}
+
+.divHeroLabels {
+    display:inline-block;
+    width:auto;
+    color:orange;
+}
+
+.divHeroValues {
+    display:inline-block;
+    margin-left:5px;
+    min-width:30%;
+}
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+
+.divTableRow {
+	display: table-row;
+}
+
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;0
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+
+.divColHeader { 
+    font-weight:bold;
+    color:orange;
+}
