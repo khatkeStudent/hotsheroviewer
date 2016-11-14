@@ -6,7 +6,7 @@
         $heroes = $db->getHeroList();
         
         foreach ($heroes as &$hero) {
-            echo "<li><a href=" . $site . "?heroid=" . $hero['id'] . "#divHeroDetails><img class=portrait title=" . $hero['name'] . " src=images\portraits\\" . $hero["name"] . 'portrait.png \></a>';
+            echo "<li><a href=" . $site . "?heroid=" . $hero['id'] . "#divHeroDetails><img class=portrait title=" . $hero['name'] . " src=images\portraits\\" . $hero["name"] . 'Portrait.png \></a>';
         }            
     }
 ?>
