@@ -54,11 +54,13 @@
                 echo '</div>'; // End divTable
                 echo '</form>';
                 
-                echo '<div id=divBuildSubmit>';
-                echo '<span>Build Name:</span>';
-                echo '<input id="txtBuildName" type="text" name="txtBuildName" />';
-                echo '<input id="btnSubmit" value="Save" type="Submit" name="btnSubmit" />';
-                echo '</div>';
+                if (isset($_SESSION["userid"])) {
+                    echo '<div id=divBuildSubmit>';
+                    echo '<span>Build Name:</span>';
+                    echo '<input id="txtBuildName" type="text" name="txtBuildName" />';
+                    echo '<input id="btnSubmit" value="Save" type="Submit" name="btnSubmit" />';
+                    echo '</div>';
+                }
                 
                 echo '</div>';
             }
