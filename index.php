@@ -6,7 +6,13 @@
     ?> 	
     <link rel="stylesheet" type="text/css" href="css\heroes.css" />
     <link rel="stylesheet" type="text/css" href="css\herodetails.css" />
-    <script src="js\index.js"></script>
+    <script src="js/index.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $("#divHeroDetails").hide().fadeIn(2000);
+        });
+    </script>
 </head>
 
 <body>

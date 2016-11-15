@@ -1,10 +1,30 @@
-.diContent ul {
+.divContent ul {
     list-style-type:none;
 }
 
 .divContent ul li h2 {
     display:block;
     color:#ffffff;
+}
+
+.divTitle {
+    color:orange;
+    font-weight:bold;
+    font-size:2em;
+}
+
+.divDate {
+    color:#ff4d00;
+    font-size:1.5em;
+}
+
+.divArticle {
+    color:#ffffff;
+    font-size:1em;
+}
+
+#news li {
+    margin-bottom:2em;
 }
 
 #liNews {

@@ -5,14 +5,9 @@
         @session_start();
         include 'templates/commonheaderstemplate.php'; 
     ?> 	
-    
-    <?php
-        if (isset($_SESSION["username"])) {
-            echo '<link rel="stylesheet" type="text/css" href="css\buildsloggedin.css" />';
-        } 
-    ?>
 	<link rel="stylesheet" type="text/css" href="css\builds.css" />
     <link rel="stylesheet" type="text/css" href="css\herodetails.css" />
+
 </head>
 
 <body>
@@ -35,7 +30,7 @@
                 echo '<form action="scripts\buildsave_handler.php" method="post">';
                 $db = new Database();
                 $hero = $db->getHero($_GET['heroid']);
-                echo '<input style="visibility:collapsed" name="heroid" value="'.
+                echo '<input style="visibility:collapse" name="heroid" value="'.
                         $_GET['heroid'] . '" />';
                 echo "<div id=divHeroDetails>";
                 printherodescription($hero);

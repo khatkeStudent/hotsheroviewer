@@ -126,6 +126,11 @@ input[type=radio] + label {
     margin-right:10px;
 } 
 
+input[type=radio] {
+    display:none;
+}
+
+
 #divBuildSubmit {
     display:inline-block;   
     width:auto;
