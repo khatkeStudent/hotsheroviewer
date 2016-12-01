@@ -1,7 +1,9 @@
 <html>
 <head>
 	<title>Heroes Little Black Book</title>
-	<link rel="stylesheet" type="text/css" href="css\style.css" />
+    <?php
+        include 'templates/commonheaderstemplate.php'; 
+    ?> 	
 	<link rel="stylesheet" type="text/css" href="css\createaccount.css" />
     
     <?php include 'scripts/webapi.php';?>
@@ -15,25 +17,24 @@
         <div id="divErrors"><?php if (isset($_SESSION['error'])) { echo '<ul>' . $_SESSION['error'] . '</ul>'; } ?></div>
         <fieldset>
             <legend>New User</legend>
-            <div>
-                <h3>Name</h3>
+             <div>
+                <label for="txtName">Name</label>
                 <input name="txtName" type="text" value="<?php if (isset($_SESSION['txtName'])) { echo htmlentities($_SESSION['txtName']); } ?>" />
             </div>
             <div>
-                <h3>E-mail Address</h3>
+                <label for="txtEmailAddress">E-mail Address</label>
                 <input name="txtEmailAddress" type="text" value="<?php if (isset($_SESSION['txtEmailAddress'])) { echo htmlentities($_SESSION['txtEmailAddress']); } ?>" />
             </div>
             <div>
-                <h3>Username</h3>
+                <label for="txtUsername">Username</label>
                 <input name="txtUsername" type="text" value="<?php if (isset($_SESSION['txtUsername'])) { echo htmlentities($_SESSION['txtUsername']); } ?>" autocomplete="off"  />
             </div>
             <div>
-                <h3>Password</h3>
+                <label for="txtPassword">Password</label>
                 <input name="txtPassword" type="password" />
-                <label>*Password must be 8 to 20 characters in length.</label>
             </div>
             <div>
-                <h3>Confirm Password</h3>
+                <label for="txtConfirmPassword">Confirm Password</label>
                 <input name="txtConfirmPassword" type="password" />
             </div>
             <input name="btnSubmit" class="btnsubmit" type="submit" value="Submit" />

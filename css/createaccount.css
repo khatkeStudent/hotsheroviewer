@@ -9,9 +9,11 @@ fieldset legend {
     font-size:2em;
 }
 
-fieldset h3 {
+label {
     display:inline-block;
-    width:8em;
+    width:10em;
+    font-size:1.2em;
+    margin:.5em 0em;
 }
 
 fieldset input {

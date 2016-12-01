@@ -1,7 +1,9 @@
 <html>
 <head>
 	<title>Heroes Little Black Book</title>
-	<link rel="stylesheet" type="text/css" href="css\style.css" />
+    <?php
+        include 'templates/commonheaderstemplate.php'; 
+    ?> 	
 	<link rel="stylesheet" type="text/css" href="css\login.css" />
 </head>
 
